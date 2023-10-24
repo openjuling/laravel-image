@@ -1,0 +1,20 @@
+{
+    "name": "juling/laravel-image",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.1",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juling\\Image\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juling\\Image\\ImageServiceProvider"
+            ]
+        }
+    }
+}
